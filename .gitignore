@@ -1,0 +1,21 @@
+# Compiled Java output
+bin/
+*.class
+
+# Generated API documentation
+doc/
+
+# IDE configuration
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+
+# Local logs and temporary files
+*.log
+*.tmp
