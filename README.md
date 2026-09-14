@@ -2,6 +2,8 @@
 
 Big Two is a four-player multiplayer card game built with Java Swing. It includes a network server, a desktop client, a modern card-table interface, in-game chat, move validation, and a centralized rules engine for every supported hand.
 
+![Big Two game interface showing a four-player match, cards, game log, and table chat](docs/screenshots/big-two-game.png)
+
 ## Highlights
 
 - Four-player matches over a client-server connection
@@ -68,6 +70,12 @@ java -cp bin BigTwo
 ```
 
 Enter a player name when prompted. Start four client instances to fill the table. Once every connected player is ready, the server shuffles the deck and begins the match.
+
+You can also supply the player name directly to skip the name prompt:
+
+```sh
+java -cp bin BigTwo "Divyansh"
+```
 
 The client connects to `127.0.0.1:2396` by default. These defaults are defined in `BigTwoClient` and can be changed when configuring the project for another host or port.
 

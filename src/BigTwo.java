@@ -455,7 +455,9 @@ public final class BigTwo implements CardGame{
 	 * @param args is not used
 	 */
 	public static void main(String[] args) {
-
+		if (args.length > 0 && !args[0].trim().isEmpty()) {
+			System.setProperty("bigtwo.playerName", args[0].trim());
+		}
 		BigTwo game = new BigTwo();  // create a Big Two card game
 
 	} // main

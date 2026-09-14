@@ -56,17 +56,14 @@ public final class BigTwoClient implements NetworkGame {
 	
 		gui.repaint();
 		
-		playerName = JOptionPane.showInputDialog(null,"Enter Name: ");
-
-		
-		if (playerName == null) {
-			System.exit(0);
-		}
-		
-		while(playerName.isEmpty()) {
-			playerName = JOptionPane.showInputDialog("Enter A valid Name: ");
+		playerName = System.getProperty("bigtwo.playerName");
+		if (playerName == null || playerName.trim().isEmpty()) {
+			playerName = JOptionPane.showInputDialog(null, "Enter Name: ");
+			while (playerName != null && playerName.trim().isEmpty()) {
+				playerName = JOptionPane.showInputDialog("Enter a valid name: ");
+			}
 			if (playerName == null) {
-			System.exit(0);
+				System.exit(0);
 			}
 		}
 
