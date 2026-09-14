@@ -470,7 +470,7 @@ public final class BigTwoGUI implements CardGameUI {
     }
 
     private void loadImages() {
-        String[] avatarNames = {"Ash.png", "Goku.png", "Joker.png", "Xmen.png"};
+        String[] avatarNames = {"Player1.png", "Player2.png", "Player3.png", "Player4.png"};
         for (int i = 0; i < avatarNames.length; i++) {
             avatars[i] = loadImage("avatars/" + avatarNames[i]);
         }
