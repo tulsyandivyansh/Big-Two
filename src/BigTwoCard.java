@@ -3,6 +3,7 @@
  * card game.It inherits all the methods from the Card class and overrides compareTo() 
  * method so that it can reflect the ordering of cards used in a Big Two card game.
  * 
+ * @author Divyansh Tulsyan
  * @version 1.0
  * @see Card
  *

@@ -1,4 +1,8 @@
-/** Four equal-ranked cards accompanied by one additional card. */
+/**
+ * Four equal-ranked cards accompanied by one additional card.
+ *
+ * @author Divyansh Tulsyan
+ */
 @SuppressWarnings("serial")
 public class Quad extends Hand {
     public Quad(CardGamePlayer player, CardList cards) {

@@ -11,6 +11,7 @@ import javax.swing.JOptionPane;
  * Two game client that is responsible for establishing a connection and communicating with 
  * the Big Two game server.
  * 
+ * @author Divyansh Tulsyan
  * @version 2.0
  * @see NetworkGame
  *

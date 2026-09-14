@@ -1,4 +1,8 @@
-/** Two cards with the same rank. */
+/**
+ * Two cards with the same rank.
+ *
+ * @author Divyansh Tulsyan
+ */
 @SuppressWarnings("serial")
 public class Pair extends Hand {
     public Pair(CardGamePlayer player, CardList cards) {

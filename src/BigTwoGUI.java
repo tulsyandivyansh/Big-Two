@@ -41,6 +41,8 @@ import javax.swing.border.EmptyBorder;
 /**
  * Swing presentation layer for Big Two. Game state remains in {@link BigTwo};
  * this class renders that state and translates local actions into game moves.
+ *
+ * @author Divyansh Tulsyan
  */
 public final class BigTwoGUI implements CardGameUI {
     private static final Color NAVY = new Color(14, 24, 38);

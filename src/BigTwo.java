@@ -9,6 +9,7 @@ import javax.swing.JOptionPane;
  * a list of players, a list of hands played on the table, an index of the current player, and 
  * a user interface. Below is a detailed description for the BigTwo class. 
  * 
+ * @author Divyansh Tulsyan
  * @version 2.0
  * @see CardGame
  * 

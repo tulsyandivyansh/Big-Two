@@ -1,3 +1,8 @@
+/**
+ * Defines the client-side operations required by a network card game.
+ *
+ * @author Divyansh Tulsyan
+ */
 public interface NetworkGame {
 	/**
 	 * Returns the playerID (index) of the local player.

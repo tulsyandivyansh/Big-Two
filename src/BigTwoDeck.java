@@ -1,4 +1,8 @@
-/** A complete deck whose cards use Big Two rank ordering. */
+/**
+ * A complete deck whose cards use Big Two rank ordering.
+ *
+ * @author Divyansh Tulsyan
+ */
 public class BigTwoDeck extends Deck {
     private static final long serialVersionUID = 1L;
     private static final int SUIT_COUNT = 4;

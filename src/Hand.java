@@ -3,6 +3,8 @@
  * Base value for a group of cards submitted by one player.
  * Concrete subclasses identify the hand category while {@link HandRules}
  * owns validation and comparison policy.
+ *
+ * @author Divyansh Tulsyan
  */
 
 @SuppressWarnings("serial")

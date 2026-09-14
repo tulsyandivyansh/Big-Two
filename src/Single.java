@@ -1,4 +1,8 @@
-/** A legal one-card Big Two hand. */
+/**
+ * A legal one-card Big Two hand.
+ *
+ * @author Divyansh Tulsyan
+ */
 @SuppressWarnings("serial")
 public class Single extends Hand {
     public Single(CardGamePlayer player, CardList cards) {

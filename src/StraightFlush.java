@@ -1,4 +1,8 @@
-/** A straight whose five cards all share the same suit. */
+/**
+ * A straight whose five cards all share the same suit.
+ *
+ * @author Divyansh Tulsyan
+ */
 @SuppressWarnings("serial")
 public class StraightFlush extends Hand {
     public StraightFlush(CardGamePlayer player, CardList cards) {

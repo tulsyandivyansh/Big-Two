@@ -1,4 +1,8 @@
-/** A five-card hand made from one pair and one triple. */
+/**
+ * A five-card hand made from one pair and one triple.
+ *
+ * @author Divyansh Tulsyan
+ */
 @SuppressWarnings("serial")
 public class FullHouse extends Hand {
     public FullHouse(CardGamePlayer player, CardList cards) {

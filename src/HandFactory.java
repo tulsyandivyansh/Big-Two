@@ -1,4 +1,8 @@
-/** Creates the most specific legal hand represented by a card selection. */
+/**
+ * Creates the most specific legal hand represented by a card selection.
+ *
+ * @author Divyansh Tulsyan
+ */
 public final class HandFactory {
     private HandFactory() {
     }

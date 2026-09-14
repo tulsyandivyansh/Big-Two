@@ -1,5 +1,7 @@
 /**
  * Identifies each legal Big Two hand and its strength among five-card hands.
+ *
+ * @author Divyansh Tulsyan
  */
 public enum HandType {
     SINGLE("Single", 0),

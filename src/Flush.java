@@ -1,4 +1,8 @@
-/** Five cards sharing one suit. */
+/**
+ * Five cards sharing one suit.
+ *
+ * @author Divyansh Tulsyan
+ */
 @SuppressWarnings("serial")
 public class Flush extends Hand {
     public Flush(CardGamePlayer player, CardList cards) {

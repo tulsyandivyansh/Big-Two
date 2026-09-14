@@ -1,4 +1,8 @@
-/** Five cards with consecutive Big Two ranks. */
+/**
+ * Five cards with consecutive Big Two ranks.
+ *
+ * @author Divyansh Tulsyan
+ */
 @SuppressWarnings("serial")
 public class Straight extends Hand {
     public Straight(CardGamePlayer player, CardList cards) {

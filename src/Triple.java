@@ -1,4 +1,8 @@
-/** Three cards with the same rank. */
+/**
+ * Three cards with the same rank.
+ *
+ * @author Divyansh Tulsyan
+ */
 @SuppressWarnings("serial")
 public class Triple extends Hand {
     public Triple(CardGamePlayer player, CardList cards) {

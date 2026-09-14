@@ -5,6 +5,8 @@ import java.util.Map;
  * Central rule engine for validating and comparing Big Two hands.
  * Keeping these rules in one place prevents the individual hand classes from
  * drifting into inconsistent interpretations of the game.
+ *
+ * @author Divyansh Tulsyan
  */
 public final class HandRules {
     private static final int FIVE_CARD_HAND_SIZE = 5;
