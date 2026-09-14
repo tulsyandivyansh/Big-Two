@@ -4,6 +4,7 @@ import java.util.ArrayList;
 /**
  * This class is used to represent a list of cards.
  * 
+ * @author Kenneth Wong
  */
 public class CardList implements Serializable {
 	private static final long serialVersionUID = -3711761437629470849L;

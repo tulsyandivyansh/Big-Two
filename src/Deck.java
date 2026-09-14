@@ -1,6 +1,10 @@
 import java.util.concurrent.ThreadLocalRandom;
 
-/** Mutable 52-card deck with standard suit and rank values. */
+/**
+ * Mutable 52-card deck with standard suit and rank values.
+ *
+ * @author Kenneth Wong
+ */
 public class Deck extends CardList {
     private static final long serialVersionUID = -3886066435694112173L;
     private static final int SUIT_COUNT = 4;

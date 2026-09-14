@@ -17,6 +17,7 @@ import javax.swing.ScrollPaneConstants;
 /**
  * This class is used to model a card game server.
  * 
+ * @author Kenneth Wong
  *
  */
 public class CardGameServer {
@@ -422,6 +423,7 @@ public class CardGameServer {
 	/**
 	 * This inner class is used for receiving incoming messages from a client
 	 * 
+	 * @author Kenneth Wong
 	 *
 	 */
 	private class ClientHandler implements Runnable {
@@ -521,6 +523,7 @@ public class CardGameServer {
 	/**
 	 * This inner class is used for handling the Clear menu
 	 * 
+	 * @author Kenneth Wong
 	 *
 	 */
 	private class ClearMenuItemListener implements ActionListener {
@@ -532,6 +535,7 @@ public class CardGameServer {
 	/**
 	 * This inner class is used for handling the Quit menu
 	 * 
+	 * @author Kenneth Wong
 	 *
 	 */
 	private class QuitMenuItemListener implements ActionListener {

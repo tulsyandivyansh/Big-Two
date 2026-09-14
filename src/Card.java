@@ -4,6 +4,7 @@ import java.util.Objects;
 /**
  * This class is used for representing a card in general card games.
  * 
+ * @author Kenneth Wong
  */
 public class Card implements Comparable<Card>, Serializable {
 	private static final long serialVersionUID = -713898713776577970L;
